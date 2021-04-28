@@ -8,7 +8,7 @@ Main methods and steps:
 //Generate MS-based positive dataset:                                   
 getMinScoreKcrUniPeptiFile(String abundKcrEvidenceFile, double minProbScore, String swissProtDBFile, int size)
                                    
-//Generate MS-based negative dataset:                                   
+//Generate MS-based negative candidate dataset:                                   
 getNoKcrEvidenPepti31SampList(String evidenSubListFile, String swissProtDBFile, int size)
     
 //Generate MS-based negative dataset:                                   
