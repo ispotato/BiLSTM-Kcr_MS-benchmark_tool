@@ -14,10 +14,11 @@ getNoKcrEvidenPepti31SampList(String evidenSubListFile, String swissProtDBFile, 
 //Generate MS-based negative dataset:                                   
 getTruePepti31List(String noKcrPepti31ListFile, String crotKPepti31ListFile)
 
-//Generate BiLSTM-Kcr train data:
+                                   
+//Generate BiLSTM-Kcr train data:                                   
 sampleSet2AcidNumSet(posiListFile, negaListFile, BiLSTM_Kcr_trainData)
-
-//train BiLSTM-Kcr model
+    
+//train BiLSTM-Kcr model:                                 
 python BiLSTM_Kcr_model_train_test.py
 
 
